@@ -1,51 +1,213 @@
 <!DOCTYPE html>
-<!-- <html>
+
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello There!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Import icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </head>
-  <body> -->
-<!-- Top NavBar -->
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="nav-wrapper white lighten-5">
+        <a href="#" class="brand-logo center blue-text text-darken-4">
+            <img style="max-width=:100%" src="./farmers-small.png"/>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class=""><a href="sass.html" class="blue-text text-darken-4">Home</a></li>
+          <li class=""><a href="#" class="blue-text text-darken-4">Get a Quote</a></li>
+          <li class=""><a href="#" class="blue-text text-darken-4">Contact Us</a></li>
+          <!-- <li class=""><a href="badges.html" class="blue-text text-darken2">Contact</a></li> -->
+          <li class=""><a href="collapsible.html" class="blue-text text-darken-4"></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main container -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="./parallax.png"></div>
+        <div id="hero_panel" class="row center">
+          <div class="col s12 white-text">
+          </div></br>
+          <div class="col s12 white-text">
+          </div></br>
+          <div class="col s12 white-text">
+          </div></br>
+          <div class="col s12 white-text">
+          </div></br>
+
+          <div class="col s12 l6 offset-l3 center">
+            <div class="card-panel center">
+              <h3 class="center blue-text darken-4">Elijah Saiz Insurance Agency</h3>
+              <div class="col s12 center">
+                <div class="row center">
+                  <button data-target="modal1" class="btn-large red pulse darken-4 modal-trigger">Get Quote</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-<!-- Hero header -->
-<!-- <section class="hero">
-  <div class="hero-body">
-  <div class="container">
-    <h1 class="title">
-      Hero title
-    </h1>
-    <h2 class="subtitle">
-      Hero subtitle
-    </h2>
-  </div>
-  </div>
-  </section> -->
-<!-- Top Navbar  -->
+        <div class="col s12 blue darken-4 white-text">
 
-
-<!--
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Coming Soon!
-      </h1>
-      <p class="subtitle"> -->
-        <!-- My first website with <strong>Bulma</strong>! -->
-      <!-- </p>
+        </div>
     </div>
-  </section>
+
+<div class="container">
+  <div class="row">
+  <div class="col l8 s12">
+    <h2 class="red-text darken-4">We know a thing or two, because we've seen a thing or two.</h2>
+    <p>
+      As your local Farmers &copy; agent in Albuquerque, NM, I help customers like you identify the insurance coverage that best fits your needs. This process is straightforward and personalized to help make you smarter about insurance. I have the knowledge and experience to help you better understand your coverage options--whether that's auto, home, renters, business insurance and more.
+
+      Give me a call at (505) 309-0855 and I'll be happy to answer any questions you might have.
+    </p>
+  </div>
+  <div class="col l4 s12">
+    <div class="card-panel blue darken-4 white-text center">
+      <h4 class="center">Contact Info</h4>
+    </br>
+      <h5><i class="material-icons">location_on</i> Address</h5>
+      <p>7801 Academy Rd NE</p>
+      <p>Building 1 Ste 206</p>
+      <p>Albuquerque, NM 87109</p>
+      <a class="red-text darken-4" href="geo:35.145743507004326, -106.55827197054384">Open In Maps</a>
+
+
+      <h5><i class="material-icons">contact_phone</i> Phone</h5>
+      <a class="red-text darken-4" href="tel:5057383548">505.738.3548</a>
+      <h5><i class="material-icons">email</i> Email</h5>
+      <a class="red-text darken-4" href="mailto:esaiz@farmersagent.com">esaiz@farmersagency.com</a>
+      <h5><i class="material-icons">schedule</i> Hours</h5>
+      <p>Call us anytime!!</p>
+    </div>
+  </div>
+</div>
+<div id="products" class="row">
+  <h4 class="red-text darken-4 center">What Can We Protect for You?</h4>
+
+<div class="row">
+  <div class="col l12 s12 card-panel center">
+    <i class="medium material-icons red-text darken-4">directions_car</i></br>
+    <p>Auto</p>
+  </div>
+  <div class="col l12 s12 card-panel center">
+    <i class="medium material-icons red-text darken-4">home</i></br>
+    <p>Home</p>
+  </div>
+  <div class="col l12 s12 card-panel center">
+    <i class="medium material-icons red-text darken-4">group</i></br>
+    <p>Life</p>
+  </div>
+  <div class="col l12 s12 card-panel center">
+    <i class="medium material-icons red-text darken-4">motorcycle</i></br>
+    <p>Motorcycle</p>
+  </div>
+  <div class="col l12 s12 card-panel center">
+    <i class="medium material-icons red-text darken-4">directions_boat</i></br>
+    <p>Recreational</p>
+  </div>
+  <div class="col l12 s12 card-panel center">
+    <i class="medium material-icons red-text darken-4">business</i></br>
+    <p>Business</p>
+  </div>
+
+</div>
+<!-- testing -->
+
+
+<!-- End test -->
+  </div>
+
+</div>
+
+<!-- contact modal -->
+ <!-- Modal Structure -->
+ <div id="modal1" class="modal">
+   <div class="modal-content">
+     <h4 class="red-text darken-4">Get Your Free Quote!</h4>
+     <p>Just fill out this quick form and you'll have your quote in no time!</p>
+<!-- start form -->
+<div class="row">
+    <form class="col s12">
+      <div class="row"> <!-- first name -->
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6"> <!-- last name -->
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row"> <!-- email address -->
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row"> <!-- date picker and type of insurance -->
+        <div class="input-field col s6">
+          <input id="dob" type="text" class="datepicker">
+          <label for="dob">Date of Birth</label>
+        </div>
+        <div class="input-field col s6">
+           <!-- <select multiple> -->
+           <select>
+             <option value="" disabled selected>Select</option>
+             <option value="1">Auto</option>
+             <option value="2">Home</option>
+             <option value="3">Life</option>
+             <option value="4">Motorcycle</option>
+             <option value="5">Recreational</option>
+             <option value="6">Business</option>
+           </select>
+           <label>Type of Quote</label>
+         </div>
+         <!-- submit button -->
+         <button class="btn-large red darken-4 ">Submit</button>
+      </div>
+
+    </form>
+  </div>
+
+<!-- end form -->
+   </div>
+   <div class="modal-footer">
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+   </div>
+ </div>
+
+
+<!-- Footer -->
+    <footer class="page-footer red darken-4">
+      <div class="footer-copyright">
+        <div class="container center">
+          &copy; 2021 Copyright Elijah Saiz Insurance Agency. All Rights Reserved.
+          <a class="grey-text text-lighten-4 right" href="#!"></a>
+        </div>
+      </div>
+    </footer>
+<!-- Analytics tracking code -->
+
+<!-- Scripting -->
+<script>
+  $(document).ready(function(){
+     $('.modal').modal();
+     $('.parallax').parallax();
+     $('.datepicker').datepicker();
+     $('select').formSelect();
+   });
+</script>
   </body>
-</html> -->
-<html xmlns="http://www.w3.org/1999/xhtml">
- <head>
-   <title>Farmers NM</title>
-   <meta http-equiv="refresh" content="0;URL='https://agents.farmers.com/nm/albuquerque/elijah-saiz'" />
- </head>
- <body>
-   <p>This page has moved to a <a href="https://agents.farmers.com/nm/albuquerque/elijah-saiz">
-     Farmers.com</a>.</p> 
- </body>
 </html>
